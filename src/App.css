@@ -1,10 +1,23 @@
 .App {
-	
 	text-align: center;
 }
-nav{
+#webNav{
+	background-color: #222;
+	color: #00f;
+	padding: .25rem;
 	display: flex;
 	flex-flow: nowrap row;
 	justify-content: space-around;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+#pageNav{
+	display: flex;
+	flex-flow: wrap row;
+}
+.page{
+	padding: .25rem;
 }
 
